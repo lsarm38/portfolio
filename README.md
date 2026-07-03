@@ -38,7 +38,7 @@ The site will start at `http://localhost:5173`.
 
 ## Deployment
 
-Deployed to [Vercel](https://vercel.com). Automatically redeploys on every push to `main`.
+Deployed to [Vercel](https://vercel.com). Automatically redeploys on every push to `master`.
 
 ---
 
