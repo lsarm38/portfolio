@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const skillGroups = [
   {
     category: "Languages",
@@ -9,7 +11,7 @@ const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["ASP.NET Core", "Entity Framework Core", "REST APIs"],
+    skills: ["ASP.NET Core", "Entity Framework", "REST APIs"],
   },
   {
     category: "Data & Cloud",
@@ -29,6 +31,8 @@ const skillGroups = [
 ];
 
 export default function Skills() {
+  const navigate = useNavigate();
+
   return (
     <section id="skills" className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
@@ -44,12 +48,15 @@ export default function Skills() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
-                  <span
+                  <button
                     key={skill}
-                    className="px-3 py-1.5 bg-gray-800 border border-gray-700 rounded-lg text-sm text-gray-300"
+                    onClick={() =>
+                      navigate(`/projects?skill=${encodeURIComponent(skill)}`)
+                    }
+                    className="px-3 py-1.5 bg-gray-800 border border-gray-700 hover:border-blue-500 hover:text-blue-400 rounded-lg text-sm text-gray-300 transition-colors cursor-pointer"
                   >
                     {skill}
-                  </span>
+                  </button>
                 ))}
               </div>
             </div>
