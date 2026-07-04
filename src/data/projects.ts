@@ -30,12 +30,20 @@ export const projects: Project[] = [
   {
     title: "Real-Time Chat App",
     description:
-      "A real-time chat application built with SignalR for WebSocket communication, C# backend, and React frontend.",
-    stack: ["C#", "SignalR", "React", "TypeScript", "ASP.NET Core"],
-    demo: "",
-    github: "",
-    live: false,
-    wip: true,
+      "A real-time chat application with public rooms, typing indicators, online user lists, and message history. Built with SignalR for WebSocket communication, C# / ASP.NET Core backend, and React / TypeScript frontend.",
+    stack: [
+      "C#",
+      "SignalR",
+      "React",
+      "TypeScript",
+      "ASP.NET Core",
+      "PostgreSQL",
+      "Tailwind CSS",
+    ],
+    demo: "https://chat-app-delta-ten-28.vercel.app",
+    github: "https://github.com/lsarm38/ChatApp",
+    live: true,
+    wip: false,
   },
 ];
 
