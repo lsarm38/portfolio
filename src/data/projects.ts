@@ -12,10 +12,11 @@ export const projects: Project[] = [
   {
     title: "JobTracker",
     description:
-      "A full-stack job application tracking tool with status tracking, notes, a status timeline, and a dashboard with charts. Built with a C# / ASP.NET Core backend and a React / TypeScript frontend.",
+      "A full-stack job application tracker with user authentication, multi-user support, status tracking, notes, a status timeline, and a dashboard with charts. Each user's data is privately scoped via ASP.NET Core Identity.",
     stack: [
       "C#",
       "ASP.NET Core",
+      "ASP.NET Core Identity",
       "React",
       "TypeScript",
       "PostgreSQL",

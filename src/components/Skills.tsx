@@ -11,7 +11,12 @@ const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["ASP.NET Core", "Entity Framework", "REST APIs"],
+    skills: [
+      "ASP.NET Core",
+      "ASP.NET Core Identity",
+      "Entity Framework",
+      "REST APIs",
+    ],
   },
   {
     category: "Data & Cloud",
