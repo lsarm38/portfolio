@@ -19,6 +19,12 @@ export default function About() {
               optimization to front-end UI development.
             </p>
             <p>
+              Outside of web development I'm currently building two indie games
+              in Unity — a rogue-lite survivor game and a 16-bit SNES-style RPG
+              — which lets me apply my C# skills in a completely different
+              domain.
+            </p>
+            <p>
               I'm currently looking for software engineering roles where I can
               keep growing and contribute to meaningful products.
             </p>

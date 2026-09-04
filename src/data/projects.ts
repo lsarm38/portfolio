@@ -46,6 +46,26 @@ export const projects: Project[] = [
     live: true,
     wip: false,
   },
+  {
+    title: "ArenaSurvivor",
+    description:
+      "An indie rogue-lite survivor game where your character attacks automatically while you focus on surviving endless waves of enemies. Inspired by the Vampire Survivors genre — fast, addictive, and increasingly chaotic.",
+    stack: ["Unity", "C#", "Game Development"],
+    demo: "",
+    github: "https://github.com/lsarm38/ArenaSurvivor",
+    live: false,
+    wip: true,
+  },
+  {
+    title: "SunWarden",
+    description:
+      "A 16-bit SNES-style RPG inspired by Final Fantasy, Chrono Trigger, and Chained Echoes. Features turn-based ATB combat and a story-driven world rendered in pixel art.",
+    stack: ["Unity", "C#", "Game Development", "Pixel Art"],
+    demo: "",
+    github: "https://github.com/lsarm38/SunWarden",
+    live: false,
+    wip: true,
+  },
 ];
 
 export const allSkills = Array.from(

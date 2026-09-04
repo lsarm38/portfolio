@@ -19,9 +19,20 @@ My personal developer portfolio showcasing my experience, skills, and projects.
 - **Hero** — introduction and call to action
 - **About** — background, education summary, and current status
 - **Experience** — professional experience at IHS Pharmacy and Hy-Vee
-- **Skills** — languages, frameworks, tools, and platforms
-- **Projects** — featured projects with live demo and GitHub links
+- **Skills** — languages, frameworks, tools, and platforms including Unity / game development
+- **Projects** — full-stack web apps and indie Unity games with GitHub links
 - **Contact** — LinkedIn, GitHub, and email
+
+---
+
+## Featured Projects
+
+| Project       | Description                                                      | Links                                                                                           |
+| ------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| JobTracker    | Full-stack job tracker with auth, status pipeline, and dashboard | [Live](https://job-tracker-rose-psi.vercel.app) · [Repo](https://github.com/lsarm38/JobTracker) |
+| ChatApp       | Real-time chat with SignalR, rooms, and typing indicators        | [Live](https://chat-app-delta-ten-28.vercel.app) · [Repo](https://github.com/lsarm38/ChatApp)   |
+| ArenaSurvivor | Indie rogue-lite survivor game built in Unity                    | [Repo](https://github.com/lsarm38/ArenaSurvivor)                                                |
+| SunWarden     | 16-bit SNES-style ATB RPG built in Unity                         | [Repo](https://github.com/lsarm38/SunWarden)                                                    |
 
 ---
 
